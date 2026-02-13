@@ -1,4 +1,4 @@
-= Technical test: Blogging platform
+= Blogging platform
 
 This is an advanced exercise for experienced software developers.
 
