@@ -1,9 +1,7 @@
-= Repository template
+= Technical Tests
 
-image::https://github.com/kieranpotts/template/actions/workflows/commit-validation-trunk.yaml/badge.svg?branch=dev[]
-
-This repository is a template for new code repositories.
+Take-home tests for technical roles in IT.
 
 ''''
 
-Copyright © 2020-present Kieran Potts, link:./LICENSE.txt[MIT license]
+Copyright © 2020-present Kieran Potts, link:./LICENSE.txt[CC0 license]
