@@ -1,0 +1,75 @@
+= Discount engine
+
+This task gives us a chance to see how you write code, solve problems, and collaborate with members of our team.
+
+To prepare, please spend a little time creating a small codebase that we can use as the starting point for pair programming.
+
+At a minimum, your code should:
+
+* Compile without errors.
+
+* Include runnable unit tests (via the command line or your IDE).
+
+* Have tests that all pass. Full coverage isn't required, but the tests you include must be reliable.
+
+The goal is to provide a minimal, working baseline that we can extend together during the technical interview. We are not looking for a complete end-to-end solution—just something functional that we can build on, refactor, and discuss.
+
+Remember: a small amount of working functionality is far better than a large amount of broken functionality.
+
+== Requirements
+
+The task is to design and implement a discount engine, in a language of your choice.
+
+The discount engine must accept an array of items, each with a base price and quantity. The engine must apply the discount rules and return the correct discounted price.
+
+Currently, there are four products sold by the vendor:
+
+* Item A
+* Item B
+* Item C
+* Item D
+
+The price of these items – known as the base price – can vary, but the price will always be positive. The vendor sells these products in the USA, UK, and EU, so the price can be fractions of a whole unit (eg. 9.99, 12.37).
+
+The vendor applies discounts on the items when purchased in combination. The current discounts are:
+
+* If Item A and Item C are ordered together then there is a 1.5% discount applied to the base price of Item A and Item C, regardless of how many of each have been ordered.
+
+* If Item B and Iem C are ordered together then there is a 1.75% discount applied to the base price of Item B and Item C, regardless of how many of each have been ordered.
+
+The following rules apply:
+
+1. Combination discounts are not cumulative for a single item. That is, an item may not have two or more discounts applied to it, only the higher discount will be applied.
+
+2. All rounding when a discount is applied that results in a fraction of a unit (9.753 or 9.757, for example) for the base price will be rounded up to the nearest whole number (9.76, for these examples).
+
+Example calculations:
+
+|===
+|Item |Base price |Quantity |Calculated line price |Base price discount applied |Discounted line price
+
+|Item A
+|10.00
+|5
+|50.00
+|1.5%
+|49.25
+
+|Item B
+|5.00
+|2
+|15.00
+|1.75%
+|14.74
+
+|Item C
+|100.00
+|1
+|100.00
+|1.75%
+|98.25
+|===
+
+*Sub total*: 165.00 +
+*Total discount*: 2.76 +
+*Final price*: 162.24
