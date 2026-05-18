@@ -1,4 +1,4 @@
-= Land tax calculator
+# Land tax calculator
 
 This task gives us a chance to see how you write code, solve problems, and collaborate with members of our team.
 
@@ -6,21 +6,21 @@ To prepare, please spend a little time creating a small codebase that we can use
 
 At a minimum, your code should:
 
-* Compile without errors.
+- Compile without errors.
 
-* Include runnable unit tests (via the command line or your IDE).
+- Include runnable unit tests (via the command line or your IDE).
 
-* Have tests that all pass. Full coverage isn't required, but the tests you include must be reliable.
+- Have tests that all pass. Full coverage isn't required, but the tests you include must be reliable.
 
 The goal is to provide a minimal, working baseline that we can extend together during the technical interview. We are not looking for a complete end-to-end solution—just something functional that we can build on, refactor, and discuss.
 
 Remember: a small amount of working functionality is far better than a large amount of broken functionality.
 
-== Background
+## Background
 
 Buying a house in the UK incurs a tax that varies according to the price of the house and the circumstances of the purchaser, eg. a higher rate is paid if you are buying a second home. In Scotland this is called the Land and Buildings Transaction Tax (LBTT), though it is commonly known as Stamp Duty, which is the name of the equivalent tax in England.
 
-== Requirements
+## Requirements
 
 Write a piece of code, in a language of your choosing, that will calculate the LBTT to be paid given a house price as input.
 
@@ -30,8 +30,8 @@ How LBTT is calculated has changed over time. You should use the most recent inf
 
 For the purpose of this technical test, your calculator may make the following assumptions:
 
-* The buyer of the house intends to live in it as their main residence.
+- The buyer of the house intends to live in it as their main residence.
 
-* After the purchase, the buyer will not own any other properties. Their existing home, if they have one, will be sold at the same time.
+- After the purchase, the buyer will not own any other properties. Their existing home, if they have one, will be sold at the same time.
 
-* The buyer does not intend to conduct any kind of business activity from their house, ie. it is for personal use only.
+- The buyer does not intend to conduct any kind of business activity from their house, ie. it is for personal use only.

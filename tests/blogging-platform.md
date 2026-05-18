@@ -1,4 +1,4 @@
-= Blogging platform
+# Blogging platform
 
 This is an advanced exercise for experienced software developers.
 
@@ -6,39 +6,39 @@ The goal is to assess your proficiency in a programming language of your choice,
 
 You will implement a simple web application based on the requirements below, using any language and (optionally) any framework or libraries you prefer. We are not expecting a complete production system, but rather a solid, working foundation that could be extended further. All implemented functionality must work, and must be supported by appropriate tests and documentation.
 
-== Requirements
+## Requirements
 
 You will build an API gateway for a simple blog platform that supports creating, reading, updating, and deleting blog posts. Each post must include a title, content, author, and publication date.
 
 Your application should include:
 
-* An API that exposes endpoints (HTTP or CLI) for CRUD operations on blog posts.
+- An API that exposes endpoints (HTTP or CLI) for CRUD operations on blog posts.
 
-* Integration with a persistent storage layer to store blog post entities.
+- Integration with a persistent storage layer to store blog post entities.
 
-* A working development setup. For an HTTP API, it should be easy to start a local development server.
+- A working development setup. For an HTTP API, it should be easy to start a local development server.
 
-* No authentication, authorization, user management, comments, or any features not listed above.
+- No authentication, authorization, user management, comments, or any features not listed above.
 
 Automated tests must cover the main functionality of the application. Use any suitable testing framework. The level of abstraction (unit, integration, functional) should be appropriate to the problem.
 
 Documentation must explain how to install, run, use, and test the application in a local development environment. It should include the minimum information required to perform these tasks.
 
-== Evaluation criteria
+## Evaluation criteria
 
 Your submission will be evaluated on:
 
-* *Functionality*: The application must meet the requirements and compile/run without errors.
+- **Functionality**: The application must meet the requirements and compile/run without errors.
 
-* *Design*: We expect a consistent API design and a clear architectural approach. We will review your internal structure and your rationale for choosing storage technologies or abstractions (eg. relational vs. document database, ORMs).
+- **Design**: We expect a consistent API design and a clear architectural approach. We will review your internal structure and your rationale for choosing storage technologies or abstractions (eg. relational vs. document database, ORMs).
 
-* *Code quality*: Code should be well-structured, readable, maintainable, and testable.
+- **Code quality**: Code should be well-structured, readable, maintainable, and testable.
 
-* *Test coverage*: Tests should meaningfully verify correctness and support refactoring.
+- **Test coverage**: Tests should meaningfully verify correctness and support refactoring.
 
-* *Documentation*: Documentation should be clear, concise, and complete.
+- **Documentation**: Documentation should be clear, concise, and complete.
 
-== Submission guidelines
+## Submission guidelines
 
 Submit your solution as a ZIP archive. Please do not upload it anywhere online, including private repositories.
 
